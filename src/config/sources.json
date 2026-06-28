@@ -1,0 +1,5 @@
+[
+  { "id": "hn",        "title": "Hacker News Front Page", "url": "https://hnrss.org/frontpage",                         "kind": "secondary" },
+  { "id": "verge",     "title": "The Verge",              "url": "https://www.theverge.com/rss/index.xml",             "kind": "secondary" },
+  { "id": "arstech",   "title": "Ars Technica",           "url": "https://feeds.arstechnica.com/arstechnica/index",    "kind": "secondary" }
+]
