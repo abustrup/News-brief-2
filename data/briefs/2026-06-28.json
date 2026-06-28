@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "runId": "run-2026-06-28T21:42:05.556Z",
+  "date": "2026-06-28",
+  "generatedAt": "2026-06-28T21:42:05.556Z",
+  "items": [
+    {
+      "title": "America can't get enough of protein. The dairy industry can't keep up",
+      "url": "https://www.cnbc.com/2026/06/28/america-cant-get-enough-protein-the-dairy-industry-cant-keep-up.html",
+      "source": "CNBC — Top News",
+      "sourceKind": "primary",
+      "publishedAt": "2026-06-28T21:35:15.000Z",
+      "score": 7.99
+    },
+    {
+      "title": "In Venezuela, silence has become a rescue tool",
+      "url": "https://www.npr.org/2026/06/28/nx-s1-5874042/in-venezuela-silence-has-become-a-rescue-tool",
+      "source": "NPR News",
+      "sourceKind": "primary",
+      "publishedAt": "2026-06-28T21:00:14.000Z",
+      "score": 7.95
+    },
+    {
+      "title": "Iran talks on hold after fighting breaks out and Trump once again threatens annihilation",
+      "url": "https://www.cnbc.com/2026/06/28/trump-threatens-iran-with-annihilation-kuwait-bahrain-report-attacks.html",
+      "source": "CNBC — Top News",
+      "sourceKind": "primary",
+      "publishedAt": "2026-06-28T20:57:32.000Z",
+      "score": 7.95
+    },
+    {
+      "title": "Heatwave and high humidity to blast much of US: ‘impactful to anyone’",
+      "url": "https://www.theguardian.com/us-news/2026/jun/28/heatwave-humidity-fourth-of-july-weather",
+      "source": "The Guardian — World",
+      "sourceKind": "primary",
+      "publishedAt": "2026-06-28T20:53:29.000Z",
+      "score": 7.94
+    },
+    {
+      "title": "A bridge to Canada may be blocked by the Trump administration",
+      "url": "https://www.npr.org/2026/06/28/nx-s1-5828903/trump-gordie-howe-bridge-canada-blocked",
+      "source": "NPR News",
+      "sourceKind": "primary",
+      "publishedAt": "2026-06-28T20:17:22.000Z",
+      "score": 7.9
+    },
+    {
+      "title": "Kate completes Three Peaks challenge to raise money for cancer charity",
+      "url": "https://www.theguardian.com/uk-news/2026/jun/28/kate-completes-three-peaks-challenge-to-raise-money-for-cancer-charity",
+      "source": "The Guardian — World",
+      "sourceKind": "primary",
+      "publishedAt": "2026-06-28T20:03:30.000Z",
+      "score": 7.89
+    },
+    {
+      "title": "Europe's heatwave linked to 1,300 deaths, WHO says, as Germany hits record 41.7C",
+      "url": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News — World",
+      "sourceKind": "primary",
+      "publishedAt": "2026-06-28T19:37:07.000Z",
+      "score": 7.86
+    },
+    {
+      "title": "Two boys rescued from Venezuela earthquake rubble after days of being trapped",
+      "url": "https://www.bbc.co.uk/news/articles/cr47dvywvy5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News — World",
+      "sourceKind": "primary",
+      "publishedAt": "2026-06-28T19:21:07.000Z",
+      "score": 7.84
+    },
+    {
+      "title": "England players using drink developed by Brownlee to help beat World Cup heat",
+      "url": "https://www.theguardian.com/football/2026/jun/28/england-players-sports-drink-extreme-heat-world-cup",
+      "source": "The Guardian — Business",
+      "sourceKind": "primary",
+      "publishedAt": "2026-06-28T15:05:46.000Z",
+      "score": 7.54
+    },
+    {
+      "title": "Lucy Powell agrees Ed Miliband would be ‘good’ as Andy Burnham’s chancellor",
+      "url": "https://www.theguardian.com/politics/2026/jun/28/labour-lucy-powell-ed-miliband-chancellor",
+      "source": "The Guardian — Business",
+      "sourceKind": "primary",
+      "publishedAt": "2026-06-28T14:33:27.000Z",
+      "score": 7.5
+    },
+    {
+      "title": "China cracks down on rule-bending offshore investments",
+      "url": "https://www.economist.com/finance-and-economics/2026/06/28/china-cracks-down-on-rule-bending-offshore-investments",
+      "source": "The Economist — Finance & economics",
+      "sourceKind": "primary",
+      "publishedAt": "2026-06-28T10:33:26.000Z",
+      "score": 7.23
+    },
+    {
+      "title": "California law targeting loud streaming ads takes effect on July 1",
+      "url": "https://techcrunch.com/2026/06/28/california-law-targeting-loud-streaming-ads-takes-effect-on-july-1/",
+      "source": "TechCrunch",
+      "sourceKind": "secondary",
+      "publishedAt": "2026-06-28T21:34:14.000Z",
+      "score": 5.99
+    }
+  ]
+}
