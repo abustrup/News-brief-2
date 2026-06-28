@@ -1,5 +1,13 @@
 [
-  { "id": "hn",        "title": "Hacker News Front Page", "url": "https://hnrss.org/frontpage",                         "kind": "secondary" },
-  { "id": "verge",     "title": "The Verge",              "url": "https://www.theverge.com/rss/index.xml",             "kind": "secondary" },
-  { "id": "arstech",   "title": "Ars Technica",           "url": "https://feeds.arstechnica.com/arstechnica/index",    "kind": "secondary" }
+  { "id": "bbc-world",     "title": "BBC News — World",        "url": "https://feeds.bbci.co.uk/news/world/rss.xml",            "kind": "primary"   },
+  { "id": "bbc-business",  "title": "BBC News — Business",     "url": "https://feeds.bbci.co.uk/news/business/rss.xml",         "kind": "primary"   },
+  { "id": "npr",           "title": "NPR News",                "url": "https://feeds.npr.org/1001/rss.xml",                     "kind": "primary"   },
+  { "id": "guardian-world","title": "The Guardian — World",    "url": "https://www.theguardian.com/world/rss",                  "kind": "primary"   },
+  { "id": "guardian-biz",  "title": "The Guardian — Business", "url": "https://www.theguardian.com/uk/business/rss",            "kind": "primary"   },
+  { "id": "cnbc-top",      "title": "CNBC — Top News",         "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",  "kind": "primary"   },
+  { "id": "economist-fin", "title": "The Economist — Finance & economics", "url": "https://www.economist.com/finance-and-economics/rss.xml", "kind": "primary" },
+  { "id": "hn",            "title": "Hacker News Front Page",  "url": "https://hnrss.org/frontpage",                            "kind": "secondary" },
+  { "id": "verge",         "title": "The Verge",               "url": "https://www.theverge.com/rss/index.xml",                 "kind": "secondary" },
+  { "id": "arstech",       "title": "Ars Technica",            "url": "https://feeds.arstechnica.com/arstechnica/index",        "kind": "secondary" },
+  { "id": "techcrunch",    "title": "TechCrunch",              "url": "https://techcrunch.com/feed/",                           "kind": "secondary" }
 ]

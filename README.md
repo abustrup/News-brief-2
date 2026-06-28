@@ -35,7 +35,7 @@ Open `docs/index.html` in a browser to preview the brief.
 
 ## One-time setup (~20 min, once)
 
-1. **Create a free GitHub repo** (private is fine) and push this folder:
+1. **Create a free GitHub repo** (use **public** — Pages on a private repo needs a paid plan) and push this folder:
    ```bash
    git remote add origin https://github.com/<you>/news-brief.git
    git push -u origin main
@@ -52,7 +52,7 @@ That's the entire human-in-the-loop footprint. After this, the brief publishes i
 
 ## Daily run (how it works)
 
-The scheduled task (on Max) each morning: `git pull` → produce today's brief per `docs/editorial-policy.md` → `bash scripts/publish-pages.sh`. The script runs `verify → brief:build → validate:draft → check:draft → metrics:brief → render`, then commits the HTML + JSON and pushes. **It publishes only if every check is green**; GitHub Pages then auto-deploys.
+The scheduled task (on Max) each morning: `git pull` → `npm run brief:build` (deterministic candidate pool → `data/draft.json`) → **curate `data/draft.json`** per `docs/editorial-policy.md` (the AI step) → `bash scripts/publish-pages.sh`. The publish script runs `verify → validate:draft → check:draft → metrics:brief → render`, then commits the HTML + JSON and pushes. It **does not re-build**, so the editorial curation is never clobbered, and it **publishes only if every check is green**; GitHub Pages then auto-deploys.
 
 ---
 

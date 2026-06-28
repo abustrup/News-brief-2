@@ -8,8 +8,15 @@ that would switch to paid per-token API billing instead of your subscription.
 
 Open the `news-brief` project folder and run `git pull`.
 
-Produce today's brief following `docs/editorial-policy.md` — your editorial
-selection/curation is the AI step, performed here on the Max subscription.
+Build today's candidate pool (deterministic fetch + score + dedupe):
+
+    npm run brief:build        # writes data/draft.json
+
+Then produce today's brief by **curating `data/draft.json`** following
+`docs/editorial-policy.md` — drop/reorder/balance items so the mix matches the
+policy. This editorial selection/curation is the AI step, performed here on the
+Max subscription. `publish-pages.sh` will publish exactly this file; it does NOT
+re-build, so your curation is preserved.
 
 Then run the safety chain and publish ONLY if everything is green:
 
@@ -19,7 +26,7 @@ If `npm run verify`, `validate:draft`, or `check:draft` fails, or the quality ga
 reports any errors, DO NOT publish. Stop and report exactly what failed.
 
 When done, confirm the live page loads at:
-    https://<your-user>.github.io/<your-repo>/
+    https://abustrup.github.io/News-brief-2/
 
 Guardrails:
 - Never publish a brief that fails the quality gate.
